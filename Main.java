@@ -1,9 +1,19 @@
-Student s = new Student();
+class Student {
+    String name;
+    int rollNo;
+    String department;
+}
 
-s.name = "Abi";
-s.rollNo = 101;
-s.department = "CSE";
+public class Main {
+    public static void main(String[] args) {
+        Student s = new Student();
 
-System.out.println("Name: " + s.name);
-System.out.println("Roll No: " + s.rollNo);
-System.out.println("Department: " + s.department);
+        s.name = "Abi";
+        s.rollNo = 101;
+        s.department = "CSE";
+
+        System.out.println("Name: " + s.name);
+        System.out.println("Roll No: " + s.rollNo);
+        System.out.println("Department: " + s.department);
+    }
+}
